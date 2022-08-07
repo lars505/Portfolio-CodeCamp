@@ -211,6 +211,7 @@ section {
   line-height: 2rem;
 }
 
+/*Componentes independientes*/
 .btn-con {
   display: flex;
   align-self: flex-start;
@@ -247,10 +248,6 @@ section {
   transform: translateX(100%);
   transition: var(--transition);
   z-index: -1;
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
 }
 .main-btn:hover {
   transition: var(--transition);
@@ -261,8 +258,4 @@ section {
   background-color: var(--color-secondary);
   transform: translateX(0);
   transition: var(--transition);
-  -webkit-transition: var(--transition);
-  -moz-transition: var(--transition);
-  -ms-transition: var(--transition);
-  -o-transition: var(--transition);
 }/*# sourceMappingURL=styles.css.map */
